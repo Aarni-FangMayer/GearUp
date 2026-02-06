@@ -1,5 +1,6 @@
 h1 {
-  font-size: 2.25rem; /* 36px */
+  font-size: 3.25rem; /* 52px */
+  line-height: 1.2;
   font-weight: 600;
   margin: 0;
   color: white;
@@ -43,3 +44,44 @@ p {
   height: 145px;
   margin: 0 auto;
 }
+
+.base-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin: 0 5%;
+    height: 100%;
+}
+
+.secondary-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-right: 4%;
+    height: 100%;
+}
+
+.mobile-grid {
+  display: none;
+}
+
+
+@media (max-width: 1024px) {
+  .base-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 4%;
+  }
+
+  .secondary-grid {
+    display: none;
+  }
+  .mobile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 4%;
+  }
+}
+

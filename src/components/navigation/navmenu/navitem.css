@@ -1,0 +1,9 @@
+.nav-item {
+    text-decoration: none;
+    color: var(--light);
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: var(--color-primary);
+}

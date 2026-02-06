@@ -1,11 +1,12 @@
-import React from 'react'
+// import React from 'react'
+// import './PromoServices.css'
 
-const PromoServices = () => {
-  return (
-    <div>
-        this is promo services section
-    </div>
-  )
-}
+// const PromoServices = () => {
+//   return (
+//     <div>
+//         this is promo services section
+//     </div>
+//   )
+// }
 
-export default PromoServices
+// export default PromoServices

@@ -2,6 +2,9 @@ html {
   font-size: 16px;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 :root {
@@ -18,11 +21,19 @@ html {
 
 /* reset stiles */
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
+}
+
 *,
 ::before,
 ::after {
   box-sizing: border-box;
 }
+
 
 :where(ul, ol):where([class]) {
   padding-left: 0;
@@ -93,7 +104,7 @@ button {
 
 html {
   height: 100%;
-  scrollbar-gutter: stable;
+  scrollbar-gutter: none-reserved;
 }
 
 html,

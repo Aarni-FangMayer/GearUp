@@ -1,0 +1,38 @@
+.mobile-header {
+  display: none;
+}
+
+
+@media (max-width: 1024px) {
+  .mobile-header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--light);
+  }
+  
+  .logo-mobile-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    padding: 6px 15px;
+    text-decoration: none;
+  }
+
+  .logo-mobile-image {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+  }
+
+  .logo-mobile-text {
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 1rem;
+    align-self: center;
+  }
+}
