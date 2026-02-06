@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div>
-      this is footer
-    </div>
-  )
-}
+    <footer>
+      <div className="footer-links">
+        <Link to="/policy" target="_blank">Privacy Policy</Link>
+        <Link to="/terms" target="_blank">Terms of Service</Link>
+      </div>
 
-export default Footer
+      <p>© {new Date().getFullYear()} My Company</p>
+    </footer>
+  );
+};
+
+export default Footer;
