@@ -1,0 +1,8 @@
+.advantage-row {
+    display: flex;
+    gap: 15px;
+}
+
+.advantage-row__text {
+    color: var(--light);
+}

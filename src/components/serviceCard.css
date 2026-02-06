@@ -1,0 +1,58 @@
+.service-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+
+    /* неактивное состояние */
+    filter: brightness(0.6);
+    border: 2px solid transparent;
+    transition: filter 0.3s ease, border 0.3s ease;
+    color: #fff;
+}
+
+/* Контент поверх картинки */
+.service-card-overlay {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+/* Заголовок — всегда виден */
+.service-card-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Описание и цена скрыты по умолчанию */
+.service-card-description,
+.service-card-price {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-top: 6px;
+    font-size: 1rem;
+}
+
+/* Цена */
+.service-card-price {
+    color: #9fff59;
+    font-weight: 600;
+}
+
+/* Hover-эффект */
+.service-card:hover {
+    filter: brightness(1);
+    border: 2px solid #9fff59;
+}
+
+.service-card:hover .service-card-description,
+.service-card:hover .service-card-price {
+    opacity: 1;
+    transform: translateY(0);
+}
