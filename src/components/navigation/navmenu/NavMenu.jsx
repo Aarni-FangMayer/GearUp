@@ -4,7 +4,7 @@ import "./NavMenu.css";
 
 const navLinks = [
   { id: 1, href: "#about", text: "About" },
-  { id: 2, href: "#advantages", text: "Why Us" },
+  { id: 2, href: "#trust", text: "Why Us" },
   { id: 3, href: "#services", text: "Services" },
   { id: 4, href: "#contacts", text: "Contacts" },
 ];

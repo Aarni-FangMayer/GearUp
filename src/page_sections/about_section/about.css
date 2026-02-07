@@ -39,6 +39,7 @@
 
 .about-section__subtitle {
     color: #4F4F4F;
+    text-align: start !important;
 }
 
 .about-section__description {

@@ -75,12 +75,11 @@
     .trust-section__cards {
         grid-column: 1/3;
         justify-content: space-between;
-        padding-bottom: 10vh;
     }
 
     .card-container {
         width: 48%;
-        height: 80%;
+        height: 20vh;
     }
 }
 
@@ -96,6 +95,10 @@
     .trust-section__advantages {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .trust-section__cards  {
+        padding-bottom: 10vh;
     }
     
     .card-container {

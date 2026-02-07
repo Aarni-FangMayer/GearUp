@@ -17,15 +17,3 @@ const ServiceCard = ({ title, description, price, bgImage }) => {
 };
 
 export default ServiceCard;
-
-/* подправить стили */
-
-/*
-use example:
-<ServiceCard
-        title="Diagnostics"
-        description="Full computer diagnostics for all vehicle systems"
-        price="from €40"
-        bgImage={image1}
-      />
-*/
