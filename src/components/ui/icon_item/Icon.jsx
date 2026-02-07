@@ -15,8 +15,3 @@ const Icon = ({ iconImg, iconImgAlt, iconText}) => {
 }
 
 export default Icon
-
-/* 
-use example:
-<Icon iconImg={icon1} iconImgAlt="diagnostics icon" iconText="Diagnostics" />
-*/

@@ -14,13 +14,15 @@ const Header = () => {
         <p className="logo-text">GearUp</p>
       </Link>
       <NavMenu />
-
-      <div className="header-button">
-        <Button
-          priority="primary"
-          text="Book Time Now"
-          onClick={() => console.log("primary clicked")}
-        />
+      <div className="header-buttons">
+        <span className="lang-switcher">Switch to Finnish</span>
+        <div className="header-button">
+          <Button
+            priority="primary"
+            text="Book Time Now"
+            onClick={() => console.log("primary clicked")}
+          />
+        </div>
       </div>
     </div>
   );

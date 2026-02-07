@@ -3,5 +3,25 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    gap: 10px;
     color: var(--light);
+}
+
+.icon-group__text {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .icon-group {
+        display: block;
+        padding: 4px 12px;
+        border: 1px solid white;
+        border-radius: 20px;
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+
+    .icon-group__icon {
+        display: none;
+    }
 }

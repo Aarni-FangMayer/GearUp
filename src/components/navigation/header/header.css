@@ -1,9 +1,9 @@
 .header {
+    position: relative;
     grid-column: 1/7;
     margin-top: 30px;
     height: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -30,6 +30,31 @@
 .logo-text {
     color: var(--light);
     font-size: 1.188rem;
+}
+
+.header-buttons {
+    border: 1px solid #ffffff40;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding-left: 15px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--light);
+    transition: color 0.3s ease;
+}
+
+.lang-switcher {
+    cursor: pointer;
+}
+
+.lang-switcher:hover {
+    color: var(--color-primary);
 }
 
 .header-button {

@@ -1,7 +1,7 @@
 import React from 'react'
 import MobileMenu from '../components/navigation/mobilemenu/MobileMenu';
 import Hero from '../page_sections/hero_section/Hero';
-// import PromoServices from '../page_sections/promo_section/PromoServices';
+import PromoServices from '../page_sections/promo_section/PromoServices';
 // import About from '../page_sections/about_section/About';
 // import Trust from '../page_sections/trust_section/Trust';
 // import Services from '../page_sections/services_section/Services';
@@ -13,9 +13,10 @@ const Home = () => {
     <>
         <MobileMenu />
         <Hero id="hero" />
+        <PromoServices id="promo" />
         
     {/* <section id="promo">
-        <PromoServices />
+        
     </section> */}
       
     {/* <section id="about">
