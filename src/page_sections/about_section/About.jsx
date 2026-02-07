@@ -36,7 +36,10 @@ const About = ({ id }) => {
             <Button
               priority="primary"
               text="See All Services"
-              onClick={() => console.log("primary clicked")}
+              onClick={() => {
+                const el = document.getElementById("services");
+                el?.scrollIntoView({ behavior: "smooth" });
+              }}
             />
           </div>
         </div>

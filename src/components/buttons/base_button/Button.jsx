@@ -1,7 +1,7 @@
 import React from "react";
 import './Button.css'
 
-const Button = ({ priority, text, onClick }) => {
+const Button = ({ priority, text, icon, onClick }) => {
   const className =
     priority === "primary"
       ? "primary"
@@ -9,7 +9,7 @@ const Button = ({ priority, text, onClick }) => {
         ? "secondary"
         : "default";
 
-    return <button className={className} onClick={onClick}>{text}</button>;
+    return <button className={className} onClick={onClick}>{icon} {text}</button>;
 };
 
 export default Button;
