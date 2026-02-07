@@ -21,7 +21,8 @@
 
 .about-section__text {
     grid-column: 4/7;
-    width: 100%;
+    width: 95%;
+    padding-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +34,7 @@
 
 .about-section__title {
     color: var(--dark);
+    font-weight: 500;
 }
 
 .about-section__subtitle {
@@ -40,20 +42,17 @@
 }
 
 .about-section__description {
-    text-align: center;
     color: #4F4F4F;
 }
 
 .about-section__highlits {
     display: flex;
-    justify-content: center;
     gap: 5vw;
     margin: 40px 0;
 }
 
 .about-section__button {
     width: 20vw;
-    margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
@@ -79,5 +78,10 @@
     .about-section__highlits  {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-section__button {
+        width: 100%;
     }
 }

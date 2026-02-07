@@ -29,3 +29,14 @@
 .secondary-card, .default-card {
     background-color: var(--light);
 }
+
+@media (max-width: 1200px) {
+    .card {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .card-title, .card-description {
+        text-align: center;
+    }
+}

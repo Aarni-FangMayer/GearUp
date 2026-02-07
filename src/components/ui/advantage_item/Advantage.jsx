@@ -11,8 +11,3 @@ const Advantage = ({ icon, text }) => {
 }
 
 export default Advantage
-
-/*
-use example:
-<Advantage icon={<img src={icon} alt="advantage icon" />} text="ASE Certified Technicians" />
-*/

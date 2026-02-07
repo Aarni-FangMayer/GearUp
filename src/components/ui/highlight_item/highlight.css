@@ -4,3 +4,9 @@
     align-items: center;
     justify-content: start;
 }
+
+@media (max-width: 550px) {
+    .highlight-group {
+        align-items: start;
+    }
+}

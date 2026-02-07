@@ -16,7 +16,7 @@ const About = ({ id }) => {
         />
         <div className="about-section__text">
           <div className="about-section__titles">
-            <h3 className="about-section__title">About GearUp</h3>
+            <h2 className="about-section__title">About GearUp</h2>
             <div className="about-section__subtitle subtitle">
               Professional auto service you can trust
             </div>

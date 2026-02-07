@@ -1,8 +1,27 @@
 .advantage-row {
     display: flex;
     gap: 15px;
+    flex: 0 0 50%;
 }
 
 .advantage-row__text {
     color: var(--light);
+}
+
+@media (max-width: 1200px) {
+    .advantage-row {
+        flex: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .advantage-row {
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .advantage-row {
+        flex: auto;
+    }
 }
