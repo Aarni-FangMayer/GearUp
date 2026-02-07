@@ -5,7 +5,7 @@ const Terms = () => {
   return (  
     <div style={{ padding: "80px", textAlign: "center" }}>
       <h1>Terms of Service</h1>
-      <p>Terms of Service text content</p>
+      <p>Terms of Service text content will appear here soon.</p>
 
       <Link to="/">Go to Home</Link>
     </div>
